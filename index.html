@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozvrh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>📅 LS TUKE 📅</h1>
+
+    <table>
+        <tr>
+            <th>Začiatok</th>
+            <th>Pon</th>
+            <th>Ut</th>
+            <th>Str</th>
+            <th>Štv</th>
+            <th>Pia</th>
+        </tr>
+
+        <tr>
+            <td>7:30</td>
+            <td> </td>
+            <td> </td>
+            <td><button class="practice" onclick="openClass('https://tuke.webex.com/meet/anna.grincova')">MAT</button></td>
+            <td> </td>
+            <td> </td>
+        </tr>
+
+
+        <tr>
+            <td>09:10</td>
+            <td><button class="lecture" onclick="openClass('https://tuke.webex.com/tuke/j.php?MTID=md2a9b8948a51145a30ce72083ea69714')">PS</button></td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+
+        <tr>
+            <td>10:50</td>
+            <td><button class="practice" onclick="openClass('https://teams.microsoft.com/l/team/19%3A3Nb-h8hysiIbmA8VIuqvDdFtUg9qIDyJOk3BuXBNYks1%40thread.tacv2/conversations?groupId=1dd4f730-ee50-49b6-aade-e23e57cc6407&tenantId=1c9f27ef-fee6-45f4-9a64-255a8c8e25a5')">FJ</button></td>
+            <td><button class="lecture" onclick="openClass('https://tuke.webex.com/tuke/j.php?MTID=mb8a89215e41fee260cae38f74ba95962')">FJ</button></td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+
+        <tr>
+            <td>11:35</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td><button class="practice" onclick="openClass('https://youtube.com')">KP</button></td>
+            <td> </td>
+        </tr>
+
+        <tr>
+            <td>13:30</td>
+            <td><button class="practice" onclick="openClass('https://tuke.webex.com/tuke/j.php?MTID=mae8f715145ae26c284c2e7afb105120c')">PS</button></td>
+            <td> </td>
+            <td> </td>
+            <td><button class="lecture" onclick="openClass('https://youtube.com')">KP</button></td>
+            <td> </td>
+        </tr>
+
+        <tr>
+            <td>15:10</td>
+            <td><button class="practice" onclick="openClass(`https://teams.microsoft.com/l/meetup-join/19%3A-WU60Y7SH0prtDABCLF--L2afNJdugAFTELoMvHIosQ1%40thread.tacv2/1739099286237?context=%7B%22Tid%22%3A%221c9f27ef-fee6-45f4-9a64-255a8c8e25a5%22%2C%22Oid%22%3A%2278529e71-ac14-4163-bef6-42c130b96d88%22%7D`)">DS</button></td>
+            <td><button class="lecture" onclick="openClass(`https://teams.microsoft.com/l/meetup-join/19%3Ameeting_NDliY2RlYzItMzc1MS00YTgzLWJiZjAtZWQyY2IzZGYyZjA4%40thread.v2/0?context=%7B%22Tid%22%3A%221c9f27ef-fee6-45f4-9a64-255a8c8e25a5%22%2C%22Oid%22%3A%22fac4b4aa-bd31-4b16-83b4-5df36b0adb99%22%7D`)">DS</button></td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

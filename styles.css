@@ -1,0 +1,83 @@
+/* 🌿 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #F5E6CC;
+    margin: 20px;
+}
+
+/* 🏫 */
+h1 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* 📅 */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 📝 */
+th {
+    background-color: #A2C5E8;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+}
+
+/* 📌 */
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* ➖ */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* ✨ */
+td:empty {
+    background-color: #F0F0F0;
+}
+
+/* 🔹 */
+button {
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 📘 */
+.lecture {
+    background-color: #5DADE2;
+}
+.lecture:hover {
+    background-color: #3498DB;
+    transform: scale(1.07);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* 📗 */
+.practice {
+    background-color: #27AE60;
+}
+.practice:hover {
+    background-color: #219150;
+    transform: scale(1.07);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
